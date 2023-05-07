@@ -156,13 +156,6 @@ namespace Nhom10
             }
         
 
-        private void dataGridView_ttTK_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if(e.RowIndex >= 0)
-            {
-                int i = e.RowIndex;
-                int id_tk = int.Parse(dataGridView_ttTK.Rows[i].Cells[0].Value.ToString());
-            }
-        }
+      
     }
 }
